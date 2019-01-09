@@ -1,5 +1,5 @@
 "use strict";
-const rectWidth = 10;
+const rectWidth = parseFloat(document.documentElement.style.getPropertyValue('--rect-width'));
 const canvas = document.createElement('canvas');
 canvas.width = 100;
 canvas.height = 20;
@@ -33,7 +33,7 @@ function drawText(text) {
         li.style.transform = `translate(
           ${column * rectWidth}px,
           ${row * rectWidth}px)
-          rotate(5turn) scale(1.5)`;
+          scale(1.5)`;
         li.style.background =
           `rgba(${imageData.data[idx]},${imageData.data[idx + 1]},${imageData.data[idx + 2]},${imageData.data[idx + 3] / 255})`;
       }
