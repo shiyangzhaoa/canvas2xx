@@ -24,8 +24,8 @@ function drawText(text) {
   ctx.fillText(text, canvas.width / 2, 2);
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   let iLi = 0;
-  for (let column = 0; column < imageData.width; ++column) {
-    for (let row = 0; row < imageData.height; ++row) {
+  for (let column = 0; column < imageData.width; column++) {
+    for (let row = 0; row < imageData.height; row++) {
       const idx = ((row * imageData.width) + column) * 4;
       if (imageData.data[idx + 3] > 0) {
         const li = ul.children[iLi++];
@@ -66,7 +66,7 @@ void async function main() {
   drawText('身体健康');
   await timeout(duration);
 
-  drawText('早日脱单');
+  drawText('有很多钱');
   await timeout(duration);
 
   ul.classList.add('slow');

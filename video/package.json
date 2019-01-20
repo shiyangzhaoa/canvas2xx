@@ -1,0 +1,22 @@
+{
+  "name": "bad-apple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node ./build/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.2.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/canvasjs": "^1.9.4",
+    "@types/fluent-ffmpeg": "^2.1.9",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.4"
+  }
+}
