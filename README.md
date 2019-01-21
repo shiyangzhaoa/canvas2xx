@@ -10,6 +10,7 @@
 3. npm run build
 
 ### 视频
-1. cd vedio
-2. npm install
-3. npm run build
+1. brew install ffmpeg
+2. cd vedio
+3. npm install
+4. npm run build
