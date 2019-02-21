@@ -14,3 +14,5 @@
 2. cd vedio
 3. npm install
 4. npm run build
+
+[一些简单的说明](https://juejin.im/post/5c2b766051882575f560553b)
