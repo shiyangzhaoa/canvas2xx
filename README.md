@@ -11,7 +11,7 @@
 
 ### 视频
 1. brew install ffmpeg
-2. cd vedio
+2. cd video
 3. npm install
 4. npm run build
 
