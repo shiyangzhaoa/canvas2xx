@@ -4,7 +4,7 @@
 
 ## 文字
 [预览](https://shiyangzhaoa.github.io/canvas2xx/)
-通过获取`canvas`的`iamgeData`, 再生成相关的`dom`节点
+通过获取`canvas`的`imageData`, 再生成相关的`dom`节点
 
 ### 图片
 根据图片, 使用`*`等特殊符号组成图片
