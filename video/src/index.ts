@@ -3,15 +3,15 @@ const fs = require("fs");
 const { execSync } = require('child_process');
 
 const { createCanvas, loadImage } = require('canvas');
-const ffmpeg = require('fluent-ffmpeg');
+// const ffmpeg = require('fluent-ffmpeg');
 
-const canvas = createCanvas(80, 80)
+const canvas = createCanvas(60, 60)
 const ctx: CanvasRenderingContext2D = canvas.getContext('2d')
 
 async function transform(imsPath: string) {
   const image: ImageBitmap = await loadImage(imsPath);
 
-  ctx.drawImage(image, 0, 0, 80, 80);
+  ctx.drawImage(image, 0, 0, 60, 60);
 
   const imageData: ImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   const { width, height, data } = imageData;

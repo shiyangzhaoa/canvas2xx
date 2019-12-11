@@ -16,7 +16,6 @@
     "canvas": "^2.2.0"
   },
   "devDependencies": {
-    "@types/canvasjs": "^1.9.4",
     "@types/node": "^10.12.18",
     "typescript": "^3.2.4"
   }

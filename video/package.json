@@ -10,12 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.2.0",
-    "fluent-ffmpeg": "^2.1.2"
+    "canvas": "^2.2.0"
   },
   "devDependencies": {
-    "@types/canvasjs": "^1.9.4",
-    "@types/fluent-ffmpeg": "^2.1.9",
     "@types/node": "^10.12.18",
     "typescript": "^3.2.4"
   }
