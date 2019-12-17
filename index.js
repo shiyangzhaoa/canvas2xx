@@ -60,15 +60,12 @@ void async function main() {
 
   await timeout(100);
 
-  drawText('新年愿望');
+  drawText('终极蛇皮');
   await timeout(duration);
 
-  drawText('身体健康');
-  await timeout(duration);
-
-  drawText('有很多钱');
+  drawText('战术翻滚');
   await timeout(duration);
 
   ul.classList.add('slow');
-  drawText('新年快乐!');
+  drawText('NMSL!');
 }();

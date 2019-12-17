@@ -27,7 +27,7 @@ async function transform(imsPath: string) {
 
       // 黑色
       if (r < 10 && g < 10 && b < 10 && a === 255) {
-        outStr += '.';
+        outStr += '+';
       } else {
         outStr += ' ';
       }
