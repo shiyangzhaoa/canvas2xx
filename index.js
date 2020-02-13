@@ -67,5 +67,5 @@ void async function main() {
   await timeout(duration);
 
   ul.classList.add('slow');
-  drawText('NMSL!');
+  drawText('和谐友爱!');
 }();
